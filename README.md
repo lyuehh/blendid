@@ -5,6 +5,11 @@
 
 **Blendid** *(formerly known as Gulp Starter)* is a delicious stand-alone blend of tasks and build tools poured into [Gulp](http://gulpjs.com/) to form a full-featured modern asset pipeline. It can be used as-is as a static site builder, or can be configured and integrated into your own development environment and site or app structure.
 
+## 修改记录
+
+1. 字体重命名的时候添加随机字符串，因为用 font-spider 处理的时候处理完的字体每次都不一样，需要换个名字，否则原字体 md5 不变导致处理完的字体名字还是一样，缓存会有问题
+2. 移除size-report, 没啥用
+
 ## Quick start on a fresh project (empty directory)
 ```bash
 yarn init
